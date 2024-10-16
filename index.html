@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五月天猜謎遊戲</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>五月天猜謎遊戲</h1>
+        <img id="question-img" class="question-img" src="img1.jpg" alt="五月天成員">
+        <div class="options">
+            <button onclick="checkAnswer('主唱')">主唱</button>
+            <button onclick="checkAnswer('吉他手')">吉他手</button>
+            <button onclick="checkAnswer('貝斯手')">貝斯手</button>
+            <button onclick="checkAnswer('鼓手')">鼓手</button>
+        </div>
+        <button id="next-btn" onclick="nextQuestion()">下一步</button>
+    </div>
+</body>
+</html>
